@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <img class="top-image" src="./images/bg-top.svg">
+  <img class="bottom-image" src="./images/bg-bottom.svg">
+
+  <div class="wrapper">
+
+    <div class="head">
+
+      <h1>Our Pricing</h1>
+
+      <div class="button">
+        <h3>Annually</h3>
+        <input type="checkbox" id="toggle" />
+        <label for="toggle" onclick="switchPrice()"></label>
+        <h3 style="margin-left: 30px;">Monthly</h3>
+      </div>
+
+    </div>
+
+    <div class="table">
+
+      <div class="basic">
+
+        <h3 class="head-table">Basic</h3>
+  
+        <h1 class="number-monthly same" style="display: none;"><span>&dollar;</span>19.99</h1>
+        <h1 class="number-annually same"><span>&dollar;</span>199.99</h1>
+        <div class="line"></div>
+        <h3>500 GB Storage</h3>
+        <div class="line"></div>
+        <h3>2 Users Allowed</h3>
+        <div class="line"></div>
+        <h3>Send up to 3 GB</h3>
+        <div class="line"></div>
+        <button class="click two">Learn More</button>
+  
+      </div>
+  
+      <div class="professional">
+        
+        <h3 class="head-table">Professional</h3>
+
+        <h1 class="number-monthly same" style="display: none;"><span>&dollar;</span>24.99</h1>
+        <h1 class="number-annually same" ><span>&dollar;</span>249.99</h1>
+        <div class="line"></div>
+        <h3>1 TB Storage</h3>
+        <div class="line"></div>
+        <h3>5 Users Allowed</h3>
+        <div class="line"></div>
+        <h3>Send up to 10 GB</h3>
+        <div class="line"></div>
+        <button class="click one">Learn More</button>
+        
+      </div>
+  
+      <div class="basic">
+
+        <h3 class="head-table">Master</h3>
+
+        <h1 class="number-monthly same" style="display: none;"><span>&dollar;</span>39.99</h1>
+        <h1 class="number-annually same"><span>&dollar;</span>399.99</h1>
+        <div class="line"></div>
+        <h3>2 TB Storage</h3>
+        <div class="line"></div>
+        <h3>10 Users Allowed</h3>
+        <div class="line"></div>
+        <h3>Send up to 20 GB</h3>
+        <div class="line"></div>
+        <button class="click two">Learn More</button>
+        
+      </div>
+      
+
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.facebook.com/profile.php?id=100003737528315">Mostafa Mahmoud</a>.
+    </div>
+  </div>
+
+  
+<script src="script.js"></script>
+</body>
+
+</html>
